@@ -66,7 +66,7 @@ export default function RoomsFilter({ rooms }) {
             min={minPrice}
             max={maxPrice}
             id="price"
-            value={maxPrice}
+            value={price}
             onChange={handleChange}
             className="form-control"
           />
